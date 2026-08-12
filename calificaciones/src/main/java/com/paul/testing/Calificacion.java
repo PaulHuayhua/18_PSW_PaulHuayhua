@@ -7,6 +7,7 @@ public class Calificacion {
     }
 
     public boolean estaAprobado(double promedio) {
-        return promedio >= 13;
+        return promedio >= 13; 
+        // return promedio > 13; // BUG (usado para evidencia de fallo)
     }
 }
